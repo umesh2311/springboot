@@ -38,6 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		provider.setPasswordEncoder(new BCryptPasswordEncoder());
 		return provider;
 	}*/
+	//Any request should be authenticated
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
