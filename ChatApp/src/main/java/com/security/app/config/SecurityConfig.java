@@ -16,7 +16,7 @@ import org.springframework.util.AntPathMatcher;
 
 @Configuration
 @EnableWebSecurity
-@EnableOAuth2Sso
+//@EnableOAuth2Sso
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
 	//Core interface which loads user-specific data. 
